@@ -15,32 +15,52 @@ This paper simplifies the derivation by starting from the **derivative of $\ln(x
 
 ## **2. The Derivative of $\ln(x)$**
 To derive the integral, we first establish that:
-$\frac{d}{dx} \ln(x) = \frac{1}{x}.$
+
+$$
+\frac{d}{dx} \ln(x) = \frac{1}{x}.
+$$
 
 ### **2.1 Relationship Between $e^x$ and $\ln(x)$:**
 - The exponential function $f(x) = e^x$ has an inverse $f^{-1}(x) = \ln(x)$.
 - The reciprocal derivative property of inverse functions states:
-$(f^{-1})'(f(x)) = \frac{1}{f'(x)}.$
+- 
+$$
+(f^{-1})'(f(x)) = \frac{1}{f'(x)}.
+$$
 
 ### **2.2 Derivative of $\ln(x)$:**
-Let $f(x) = e^x$, so 
-$f^{-1}(x) = \ln(x).$
+Let $f(x) = e^x$, so $f^{-1}(x) = \ln(x)$. Then:
 
-Then:
-$\frac{d}{dx} \ln(x) = (f^{-1})'(x) = \frac{1}{f'(f^{-1}(x))}.$
+$$
+\frac{d}{dx} \ln(x) = (f^{-1})'(x) = \frac{1}{f'(f^{-1}(x))}.
+$$
 
 Since $f'(x) = e^x$ and $f^{-1}(x) = \ln(x)$, this simplifies to:
-$\frac{d}{dx} \ln(x) = \frac{1}{e^{\ln(x)}}.$
 
-Using $e^{\ln(x)} = x$, we find: $\frac{d}{dx} \ln(x) = \frac{1}{x}$
+$$
+\frac{d}{dx} \ln(x) = \frac{1}{e^{\ln(x)}}.
+$$
+
+Using $e^{\ln(x)} = x$, we find:
+
+$$
+\frac{d}{dx} \ln(x) = \frac{1}{x}.
+$$
 
 ---
 
 ## **3. The Integral of $\frac{1}{x}$**
 The Fundamental Theorem of Calculus states that if $\frac{d}{dx} F(x) = f(x)$, then:
-$\int f(x) dx = F(x) + C.$
+
+$$
+\int f(x) dx = F(x) + C.
+$$
+
 Since $\frac{d}{dx} \ln(x) = \frac{1}{x}$, it follows that:
-$\int \frac{1}{x} dx = \ln|x| + C.$
+
+$$
+\int \frac{1}{x} dx = \ln|x| + C.
+$$
 
 ---
 
