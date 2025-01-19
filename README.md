@@ -1,1 +1,1 @@
-# This is a white paper to prove the intefral of 1/x equals to ln|n|+C in intuitive and fundamental way.
+### This is a white paper to prove $\int \frac{1}{x} dx = \ln|x| + C$ in intuitive and fundamental way.
